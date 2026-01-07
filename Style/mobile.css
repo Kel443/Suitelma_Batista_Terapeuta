@@ -1,0 +1,292 @@
+/* Responsive Styles for Mobile Devices */
+@media (max-width: 768px) {
+  .header {
+    height: auto;
+    padding-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -2vh;
+  }
+
+  .headerImg {
+    width: 60%;
+    padding-top: 5vh;
+    margin: 1vh auto;
+    display: block;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: black;
+  }
+
+  .menu {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .ul {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .li {
+    margin: 10px 0;
+    padding: 0;
+  }
+
+  .link {
+    float: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+
+  /* Mobile Menu Active State */
+  .menu.active {
+    display: block;
+  }
+
+  .divNav {
+    display: none; /* Hide the secondary nav on mobile if needed, or style it */
+  }
+
+  /* Sections */
+  .section {
+    padding: 20px 0;
+  }
+
+  .row {
+    margin: 0 !important;
+  }
+
+  .col-sm-4, .col-sm-8, .col-md-6, .col-md-5{
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .Telma {
+    width: 80%;
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  .col2 {
+    width: 100%;
+    margin: 0;
+    padding: 0 15px;
+  }
+
+  .terapia {
+    text-align: center;
+    font-size: 1.3em;
+  }
+
+  .texto-terapia, .texto-terapia-fim {
+    text-align: justify;
+    font-size: 1rem;
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  #TelmaPng {
+    display: none;
+  }
+  .button2{
+  background-color:#036e2cf3;
+  color: rgb(255, 254, 254);
+  width: 80vw;
+  height: 7vh;
+  margin-left: 5vw;
+  margin-bottom: 4vh;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  border-radius: 5vw;
+  box-shadow: 0px 0px 10px 5px white;
+}
+#whatsapp2{
+  display: none;
+  margin: 0;
+  width: 7.6vh;
+  vertical-align: middle;
+  margin-top: -18.7vh;
+  margin-left: 75vw;
+}
+
+  /* Section 2 - Video */
+  .section2 {
+    background-attachment: scroll; /* Better performance on mobile */
+    background-image: url(/Imagem/mar.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(7, 7, 7);
+    font-family: var(---font-prncipal);
+    font-weight: 900;
+    margin-top: -10vh;
+  }
+
+  .AVA {
+    margin: 20px 0;
+    font-size: 1.5em;
+    text-align: center;
+    width: 100%;
+  }
+
+  #video {
+    width: 100%;
+    margin: 0;
+    padding: 15px;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .iframe {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+  }
+
+  #explicação {
+    width: 100%;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .box{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .etapas {
+    width: 100%;
+    margin-left: -4vw;
+    margin-bottom: 20px;
+  }
+
+  /* Section 3 - How it works */
+  .ComoFunciona {
+    font-size: 2em;
+  }
+
+  .n1, .n2, .n3 {
+    width: 60px;
+    margin-left: 28vw;
+    display: block;
+  }
+
+  .h51, .h52, .h53 {
+    margin-left: -8vw;
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  .paragrafos1, .paragrafos2, .paragrafos3 {
+    width: 100%;
+    margin-left: -5vw;
+    text-align: center;
+  }
+
+  .vamos {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    padding: 20px;
+    border: none;
+  }
+
+  .vh1 {
+    font-size: 1.5em;
+    margin: 0;
+  }
+
+  .vh2 {
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  .button1 {
+    width: 100%;
+    margin: 20px 0;
+    height: auto;
+    padding: 1vh;
+  }
+
+  #whatsapp {
+    display: none;
+    margin: 0;
+    width: 10vh;
+    vertical-align: middle;
+    margin-top: -18vh;
+    margin-left: 75vw;
+  }
+
+  .telmalogo {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+  }
+  .palestrap{
+  width: 90vw;
+  background-color: white;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 1vw;
+  border-radius: 2vw;
+  box-shadow: 0px 0px 10px 2px rgb(0, 0, 0);
+  transition: all 0.3s ease-in-out;/*Efeito de transição suave
+  margin-bottom: 2vh;*/
+}
+
+  /* Footer */
+  .footer {
+    width: 100%;
+    margin-top: 0;
+  }
+  #LogoFooter{
+    display: none;
+  }
+  #linkfoter1, #linkfoter2, #linkfoter3{
+    font-size: 1.1em;
+    font-weight: 600;
+  }
+  #imgIcon1, #imgIcon2, #imgIinsta3{
+    width: 10vw;
+  }
+
+  .ul1 {
+    margin-left: -10vw;
+    display: flex;
+    text-align: center;
+  }
+
+  .li1 {
+   margin-left: -18vw; 
+   font-weight: 800;
+  }
+
+  .link1 {
+   margin-left: 10.5vw; 
+   font-size: 1.2rem;
+  }
+
+  #colunafooter {
+    margin-top: 0;
+    
+  }
+}
