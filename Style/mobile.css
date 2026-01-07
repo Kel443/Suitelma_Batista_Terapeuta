@@ -1,6 +1,7 @@
 /* Responsive Styles for Mobile Devices */
 @media (max-width: 768px) {
   .header {
+    width: 100%;
     height: auto;
     padding-bottom: 20px;
     flex-direction: column;
@@ -9,7 +10,7 @@
   }
 
   .headerImg {
-    width: 60%;
+    width: 70%;
     padding-top: 5vh;
     margin: 1vh auto;
     display: block;
@@ -67,7 +68,7 @@
   }
 
   .col-sm-4, .col-sm-8, .col-md-6, .col-md-5{
-    width: 100%;
+    width: 90%;
     flex: 0 0 100%;
     max-width: 100%;
     padding: 0 15px;
@@ -141,11 +142,10 @@
     margin: 20px 0;
     font-size: 1.5em;
     text-align: center;
-    width: 100%;
   }
 
   #video {
-    width: 100%;
+    width: 70%;
     margin: 0;
     padding: 15px;
     border-radius: 0;
@@ -167,9 +167,14 @@
     box-shadow: none;
     background-color: rgba(0, 0, 0, 0);
   }
+  #explicação2{
+  width: 90%;
+  color: black;
+  margin-left: -1px;
+}
 
   .box{
-    width: 100%;
+    width: 80%;
     margin-bottom: 20px;
   }
   .etapas {
@@ -275,10 +280,18 @@
     text-align: center;
   }
 
-  .li1 {
-   margin-left: -18vw; 
-   font-weight: 800;
-  }
+  .li1{
+   margin-left: -24vw;
+   padding-right: -200vw;
+}
+.li2{
+  margin-left: -25vw;
+  padding-right: -200vw;
+}
+.li3{
+  margin-left: -25vw;
+  padding-right: -200vw;
+}
 
   .link1 {
    margin-left: 10.5vw; 

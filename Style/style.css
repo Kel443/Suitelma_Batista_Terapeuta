@@ -462,7 +462,14 @@ li{
   margin-left: -5vw;
 }
 .li1{
-   margin-left: 5vw;
+   margin-left: 25vw;
+   padding-left: 3vw;
+}
+.li2{
+   padding-left: 8vw;
+}
+.li3{
+   padding-left: 8vw;
 }
 .link1{
   color: rgb(8, 8, 8);
@@ -485,9 +492,7 @@ li{
   font-weight: 500;
   display: flex; 
   margin-top: 15vh;
-  margin-left:27vw;
   margin-bottom: -5vh;
-  
 }
 .box.show {
   opacity: 1;
