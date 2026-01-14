@@ -258,7 +258,21 @@
   transition: all 0.3s ease-in-out;/*Efeito de transição suave
   margin-bottom: 2vh;*/
 }
-
+/* Section 4 - Sobre-mim */
+.Sobre-mim{
+  width: 90vw;
+  margin-left: 2vw;
+  margin-bottom: 1vh;
+  padding: 2vw;
+}
+.pSobre{
+  width: 90vw;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: justify;
+  margin-left: -1vw;
+  line-height: 1.6;
+}
   /* Footer */
   .footer {
     width: 100%;
