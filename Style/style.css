@@ -491,13 +491,13 @@ li{
 }
 .li1{
    margin-left: 25vw;
-   padding-left: 3vw;
+   padding-left: 5vw;
 }
 .li2{
    padding-left: 8vw;
 }
 .li3{
-   padding-left: 8vw;
+   padding-left: 7vw;
 }
 .link1{
   color: rgb(8, 8, 8);
@@ -521,6 +521,7 @@ li{
   display: flex; 
   margin-top: 15vh;
   margin-bottom: -5vh;
+  margin-left: -10vw;
 }
 .box.show {
   opacity: 1;
