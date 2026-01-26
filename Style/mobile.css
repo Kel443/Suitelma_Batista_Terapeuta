@@ -76,6 +76,13 @@
   .footer {
     padding: 15px 0;
   }
+  .ul1{
+  font-weight: 500;
+  display: flex; 
+  margin-top: 15vh;
+  margin-bottom: -5vh;
+  margin-left: -21vw;
+}
   #linkfoter1, #linkfoter2, #linkfoter3 {
     font-size: 1em;
   }
